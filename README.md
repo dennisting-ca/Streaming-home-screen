@@ -10,3 +10,7 @@ The goal of this project is to create a movie streaming service’s home screen,
 - recommendations based on similar users
 - recommendations based on popular movies
 - recommendations based on a movie that the user has recently watched.
+
+### Data:
+MovieLens 25M Dataset from GroupLens Research (link: https://grouplens.org/datasets/movielens/)
+
