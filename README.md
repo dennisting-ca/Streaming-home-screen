@@ -5,6 +5,7 @@
 
 
 ### Project Goal:
+
 The goal of this project is to create a movie streaming service’s home screen, with multiple sets of recommendations: 
 - recommendations based on similar users
 - recommendations based on popular movies
