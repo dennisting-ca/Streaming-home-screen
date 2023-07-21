@@ -1,4 +1,4 @@
 # Streaming Home Screen
-## Movie Recommendations Project
+## Movie Recommender System Project
 
-This is a Read Me File
+[Placeholder - To be updated]
