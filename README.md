@@ -30,6 +30,7 @@ MovieLens 25M Dataset from GroupLens Research (link: https://grouplens.org/datas
     [Note 1 - cross validation is performed in Grid Search, hence a validation set is not explicitly defined in this step] <br />
     [Note 2 - 'net_ratings' calculation for train data is not influenced by ratings in test set]
   - Filtered Data by dropping particular columns and rows by rationale explained in the Jupyter Notebook.
+- Explored different metrics on how to define a "top movie"
 - Exported relevant files for future notebooks
 
 
