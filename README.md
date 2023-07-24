@@ -33,7 +33,6 @@ MovieLens 25M Dataset from GroupLens Research (link: https://grouplens.org/datas
 - Explored different metrics on how to define a "top movie"
 - Exported relevant files for future notebooks
 
-
 ### Part 2 - Modelling Highlights:
 
 - Exported relevant files for future notebooks
