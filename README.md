@@ -16,3 +16,23 @@ The goal of this project is to create a movie streaming service’s home screen,
 ### Data:
 MovieLens 25M Dataset from GroupLens Research (link: https://grouplens.org/datasets/movielens/)
 
+### Part 1 - Exploratory Data Analysis (EDA) Highlights:
+- Imported data and python libraries
+- Inspected Data:
+  - Checked for missing data / duplicate rows
+  - Visualized Data (histograms, bar graphs, etc)
+  - Grouped Data (value counts, etc)
+- Data Manipulation:
+  - Created 'net_ratings' - new feature calculated as <br />
+    [(user rating on particular movie) - (average rating for this particular user)]
+  - Merged (joined) datatables
+  - Performed Train / Test split <br />
+    [Note 1 - cross validation is performed in Grid Search, hence a validation set is not explicitly defined in this step] <br />
+    [Note 2 - 'net_ratings' calculation for train data is not influenced by ratings in test set]
+  - Filtered Data by dropping particular columns and rows by rationale explained in the Jupyter Notebook.
+- Exported relevant files for future notebooks
+
+
+### Part 2 - Modelling Highlights:
+
+- Exported relevant files for future notebooks
