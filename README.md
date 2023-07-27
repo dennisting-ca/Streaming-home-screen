@@ -1,8 +1,6 @@
 # Streaming Home Screen
 ## Movie Recommender System Project
 
-[Work In Progress]
-
 ### Note:
 Due to size limitations of GitHub, the data, pickled models, and exported results are not included in this repository. 
 
