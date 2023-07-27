@@ -21,12 +21,13 @@ MovieLens 25M Dataset from GroupLens Research (link: https://grouplens.org/datas
   - Visualized Data (histograms, bar graphs, etc)
   - Grouped Data (value counts, etc)
 - Data Manipulation:
-  - Created `net_ratings` - new feature calculated as <br />
+  - Created `net_rating` - new feature calculated as <br />
     [(user rating on particular movie) - (average rating for this particular user)]
+      - Ratings in general are a little arbitrary. The goal of this new `net_rating` feature was to capture whether a user liked a movie more (positive figure) or less (negative figure) than their overall average rating, and by how much (i.e. the magnitude of these positive / negative figures).
   - Merged (joined) datatables
   - Performed Train / Test split <br />
     [Note 1 - cross validation is performed in Grid Search, hence a validation set is not explicitly defined in this step] <br />
-    [Note 2 - `net_ratings` calculations for train data is not influenced by ratings in test set]
+    [Note 2 - `net_rating` calculations for train data is not influenced by ratings in test set]
   - Filtered Data by dropping particular columns and rows by rationale explained in the Jupyter Notebook
 - Explored different metrics on how to define a "top movie"
 - Exported relevant files for future notebooks (csv, npz, etc)
@@ -57,4 +58,4 @@ MovieLens 25M Dataset from GroupLens Research (link: https://grouplens.org/datas
 ### Part 3 - Recommendation Highlights:
 - Imported python libraries and relevant files exported from previous notebooks
 - Imported picked models from Models Jupyternotebooking (see Part 2 - Modelling Highlights above)
-- Created Functions that would take 'user_id' as input, and provide movie recommendations (using pickled models / top movies / cosine similarity based on vectorized tags). 
+- Created Functions that would take `user_id` as input, and provide movie recommendations (using pickled models / top movies / cosine similarity based on vectorized tags). 
