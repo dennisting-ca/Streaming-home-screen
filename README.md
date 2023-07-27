@@ -52,7 +52,7 @@ MovieLens 25M Dataset from GroupLens Research (link: https://grouplens.org/datas
   - *FunkSVD++* model takes into account 'implicit ratings' (i.e. the fact that a user rates an item is in itself an indication of preference)
 - Compared FCP & MAE metrics of the 3 models above with each other (with visuals)
   - *FunkSVD++* model outperformed the models above, it appears that 'implicit ratings' helped it out-perform
-- Vectorized movie tags with TF-IDF (Term Frequency - Inverse Document Frequency) and applied Cosine Similarity to its output to measure similarity between movies based on tags
+- Vectorized movie tags with TF-IDF (Term Frequency - Inverse Document Frequency) and applied Cosine Similarity to its output to measure similarity between movies based on tags for content-based filtering
 - Pickled Models (i.e. "exported" trained models above) so that recommendations can be performed without having to retrain the model each time. Exported relevant files for future notebooks (csv, npz, etc)
 
 ### Part 3 - Recommendation Highlights:
