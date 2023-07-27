@@ -21,7 +21,7 @@ MovieLens 25M Dataset from GroupLens Research (link: https://grouplens.org/datas
   - Visualized Data (histograms, bar graphs, etc)
   - Grouped Data (value counts, etc)
 - Data Manipulation:
-  - Created `net_rating` - new feature calculated as <br />
+  - Created `net_rating` - new feature calculated as: <br />
     [(user rating on particular movie) - (average rating for this particular user)]
       - Ratings in general are a little arbitrary. The goal of this new `net_rating` feature was to capture whether a user liked a movie more (positive figure) or less (negative figure) than their overall average rating, and by how much (i.e. the magnitude of these positive / negative figures).
   - Merged (joined) datatables
