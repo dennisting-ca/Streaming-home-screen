@@ -31,7 +31,7 @@ MovieLens 25M Dataset from GroupLens Research (link: https://grouplens.org/datas
     [Note 2 - `net_ratings` calculations for train data is not influenced by ratings in test set]
   - Filtered Data by dropping particular columns and rows by rationale explained in the Jupyter Notebook
 - Explored different metrics on how to define a "top movie"
-- Exported relevant files for future notebooks
+- Exported relevant files for future notebooks (csv, npz, etc)
 
 ### Part 2 - Modelling Highlights:
 - Imported python libraries and relevant files exported from previous notebooks
@@ -53,7 +53,9 @@ MovieLens 25M Dataset from GroupLens Research (link: https://grouplens.org/datas
   - *FunkSVD++* model takes into account 'implicit ratings' (i.e. the fact that a user rates an item is in itself an indication of preference)
 - Compared FCP & MAE metrics of the 3 models above with each other (with visuals)
   - *FunkSVD++* model outperformed the models above, it appears that 'implicit ratings' helped it out-perform
-- Exported relevant files for future notebooks
+- Vectorized movie tags with TF-IDF (Term Frequency - Inverse Document Frequency) and applied Cosine Similarity to its output to measure similarity between movies based on tags
+- Pickled Models (i.e. "exported" trained models above) so that recommendations can be performed without having to retrain the model each time. Exported relevant files for future notebooks (csv, npz, etc)
 
 ### Part 3 - Recommendation Highlights:
 - Imported python libraries and relevant files exported from previous notebooks
+- Imported picked models from Models Jupyternotebooking (see Part 2 - Modelling Highlights above)
