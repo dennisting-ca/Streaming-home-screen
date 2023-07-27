@@ -59,3 +59,4 @@ MovieLens 25M Dataset from GroupLens Research (link: https://grouplens.org/datas
 ### Part 3 - Recommendation Highlights:
 - Imported python libraries and relevant files exported from previous notebooks
 - Imported picked models from Models Jupyternotebooking (see Part 2 - Modelling Highlights above)
+- Created Functions that would take 'user_id' as input, and provide movie recommendations (using pickled models / top movies / cosine similarity based on vectorized tags). 
