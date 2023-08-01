@@ -1,4 +1,4 @@
-# Streaming Home Screen
+# Streaming Service Home Screen
 ## Movie Recommender System Project
 
 ### Note:
